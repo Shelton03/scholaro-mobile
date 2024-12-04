@@ -1,7 +1,7 @@
 export const api_simulation_data = {
     "undergraduate":[
         {
-         id:"0",
+         id:"Joshua",
          type:"scholarship",
          amount:"Full Tuition",
          name:"Joshua Mqabuko Nkomo",
@@ -18,7 +18,7 @@ export const api_simulation_data = {
          benefits:["Leadership Seminars","Tuition","Project Support"]
         },
         {
-            id:"1",
+            id:"Old",
             type:"scholarship",
             amount:"All Expenses Covered",
             name:"Old Mutual",
@@ -37,7 +37,7 @@ export const api_simulation_data = {
             
         },
         {
-            id:"2",
+            id:"Ned",
             type:"scholarship",
             amount:"All Expenses Covered",
             name:"Nedbank",
@@ -56,7 +56,7 @@ export const api_simulation_data = {
             
         },
         {
-            id:"3",
+            id:"Noic",
             type:"scholarship",
             amount:"All Expenses Covered",
             name:"NOIC",
@@ -76,7 +76,7 @@ export const api_simulation_data = {
             
         },
         {
-            id:"4",
+            id:"POt",
             amount:"All Expenses Covered",
             type:"scholarship",
             name:"POTRAZ",
@@ -95,7 +95,7 @@ export const api_simulation_data = {
             
         },
         {
-            id:"5",
+            id:"Master",
             amount:"All Expenses Covered",
             type:"scholarship",
             name:"Mastercard-USIU",
@@ -116,7 +116,7 @@ export const api_simulation_data = {
     ],
      "postgraduate":[
         {
-        id:"0",
+        id:"Beit",
         type:"scholarship",
         amount:"All Expenses Covered",
         name:"Beit Trust",
@@ -134,7 +134,7 @@ export const api_simulation_data = {
 
         },
         {
-        id:"1",
+        id:"Found",
         type:"scholarship",
         amount:"All Expenses Covered",
         name:"Mastercard Foundation",
@@ -154,7 +154,7 @@ export const api_simulation_data = {
 
         },
         {
-        id:"2",
+        id:"Cheve",
         amount:"All Expenses Covered",
         type:"scholarship",
         name:"Chevening",
@@ -172,7 +172,7 @@ export const api_simulation_data = {
 
         },
         {
-            id:"3",
+            id:"Rhod",
             type:"scholarship",
             amount:"All Expenses Covered",
             name:"Rhodes Scholarship",
@@ -190,7 +190,7 @@ export const api_simulation_data = {
 
             },
             {
-                id:"4",
+                id:"Full",
                 type:"scholarship",
                 amount:"All Expenses Covered",
                 name:"Fullbright",
@@ -208,7 +208,7 @@ export const api_simulation_data = {
     
                 },
                 {
-                    id:"5",
+                    id:"Eras",
                     type:"scholarship",
                     amount:"Varies",
                     name:"Erasmus Mundus",
@@ -230,7 +230,7 @@ export const api_simulation_data = {
 
 "industrialAttachment":[
     {
-    id:"0",
+    id:"Mutua",
     type: "job",
     name:"Old Mutual",
     opens:"19/05/25",
@@ -245,7 +245,7 @@ export const api_simulation_data = {
     },
     
     {
-    id:"1",
+    id:"Delo",
     type: "job",
     name:"Deloitte",
     opens:"25/07/25",
@@ -259,7 +259,7 @@ export const api_simulation_data = {
     eligibility:["Must be a third year university student"]
     },
     {
-    id:"2",
+    id:"Eco",
     type: "job",
     name:"Econet",
     opens:"10/05/25",
@@ -273,7 +273,7 @@ export const api_simulation_data = {
     eligibility:["Must be a third year university student"]
     },
     {
-        id:"3",
+        id:"CBZ",
         type: "job",
         name:"CBZ Holdings",
         opens:"21/05/25",
@@ -301,7 +301,7 @@ export const api_simulation_data = {
         eligibility:["Must be a third year university student"]
     },
     {
-        id:"5",
+        id:"Huawei",
         type: "job",
         name:"Huawei",
         opens:"21/03/25",
@@ -317,7 +317,7 @@ export const api_simulation_data = {
 ],
 "apprenticeship":[
     {
-     id:"0",
+     id:"Den",
      type: "apprenticeship",
      name:"Dendairy",
      opens:"20/02/25",
@@ -331,7 +331,7 @@ export const api_simulation_data = {
      eligibility:["5 O'Levels including Math, English and Science","2 A'Level passes","A driver's license is an added advantage"]
     },
     {
-    id:"1",
+    id:"Delt",
     type: "apprenticeship",
     name:"Delta",
     opens: "20/04/25",
@@ -354,7 +354,7 @@ export const api_simulation_data = {
 
     },
     {
-    id:"2",
+    id:"Dairy",
     type: "apprenticeship",
     name:"Dairyboard",
     opens:"Not yet online",
@@ -368,7 +368,7 @@ export const api_simulation_data = {
     eligibility: ["Qualification: 3 A “Level” pass.", ". 5 “O” Level passes inclusive English, Mathematics and Sciences.", "Age: Minimum of 16 and maximum 25 years as on the date of submission of application.", "Registered with the respective Apprenticeship Board (Clearance Letter)."]
     },
     {
-        id:"3",
+        id:"Spo",
         type: "apprenticeship",
         name:"Spotify",
         opens:"24/08/25",
@@ -382,7 +382,7 @@ export const api_simulation_data = {
         eligibility:["Should be able to write code"]
         },
     {
-            id:"4",
+            id:"Tel",
             type: "apprenticeship",
             name:"Telone",
             opens:"not yet Online",
@@ -396,7 +396,7 @@ export const api_simulation_data = {
             eligibility:["Zimbabwean Citizen", "18-30 years", "5 O Levels including Maths, English and Science", "No criminal record or pending prosecution"]
         },
     {
-         id:"5",
+         id:"Air",
             type: "apprenticeship",
             name:"Air Zimbabwe",
             opens:"01/11/2023",

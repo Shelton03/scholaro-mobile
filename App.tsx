@@ -6,10 +6,7 @@ import { Login } from "./src/Login/Login";
 import { Register } from "./src/Register/Register";
 import { Main } from "./src/Main/Main";
 import { LoadingScreen } from "./src/Login/LoadingScreen";
-import Scholarship, { Undergraduate } from "./src/Components/undergraduate";
-import Postgraduate from "./src/Components/Postgraduate";
-import Attachment from "./src/Components/attachment";
-import Apprenticeship from "./src/Components/apprenticeship";
+
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -34,34 +31,6 @@ export default function App() {
         <Stack.Screen
           name="Register"
           component={Register}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Undergraduate"
-          component={Undergraduate}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Postgraduate"
-          component={Postgraduate}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Attachment"
-          component={Attachment}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Apprenticeship"
-          component={Apprenticeship}
           options={{
             headerShown: false,
           }}

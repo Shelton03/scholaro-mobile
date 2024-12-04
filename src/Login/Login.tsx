@@ -30,7 +30,7 @@ export const Login = () => {
       try{
         const response = await auth().signInWithEmailAndPassword(email,password);
         if (response.user){
-          nav.replace("Main")
+          nav.replace("Main",email)
         }
 
       }

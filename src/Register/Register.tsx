@@ -29,8 +29,7 @@ export const Register = () => {
 
     const user = {"email":email, 'password': password,'list_of_applied':[]}
     firestore().collection('users').doc(name).set(user)
-    //db().ref(`/users/${response.user.uid}`).set({name,list_of_applied:[]});
-    //db().ref(`/users/${response.user.uid}`).set({list_of_applied:[]})
+   
   };
 
   const registerAndGoToMainFlow = async () => {
@@ -41,7 +40,7 @@ export const Register = () => {
 
         if (response.user){
           await createProfile(response)
-          nav.replace("Main")
+          nav.replace("Main",{email:email})
         }
       }
        

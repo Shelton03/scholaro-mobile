@@ -1,30 +1,29 @@
 import React from "react";
-import { Button, Keyboard, Pressable } from "react-native";
-import Scholarship from "../Components/undergraduate";
-import { useNavigation } from "@react-navigation/native";
-import { KeyboardAvoidingView, TextInput } from "react-native";
-import { NativeStackNavigationProp } from "@react-navigation/native-stack";
-import { CTAButton } from "../Components/CTAButton/CTAButton";
+import { Text,View } from "react-native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import TabStack from "./TabStack";
+import { api_simulation_data } from "../data/data";
+
+const Tab = createBottomTabNavigator()
 
 
-
-
-export const Main = () => {
-  const nav = useNavigation<NativeStackNavigationProp<any>>();
-
-  const goToPage = (type: string) => {
-    nav.navigate(type,{title:type});
-  };
-
+export function Main({route}:any){
+   const name = route.params;
+ 
   return (
     
-    <KeyboardAvoidingView>
-      <Button title="Undergraduate Scholarship" onPress={()=>goToPage("Undergraduate")} />
-      <Button title="Postgraduate Scholarship" onPress={()=>goToPage("Postgraduate")} />
-      <Button title="Industrial Attachment" onPress={()=>goToPage("Attachment")} />
-      <Button title="Apprenticeship" onPress={()=>goToPage("Apprenticeship")} />
-    </KeyboardAvoidingView>
+      <Tab.Navigator>
+        
+      <Tab.Screen name="Undergraduate Scholarship" children={()=> <TabStack  listData ={api_simulation_data.undergraduate} name={name}/>} />
+      <Tab.Screen name="Postgraduate Scholarship" children={()=> <TabStack  listData ={api_simulation_data.postgraduate} name={name}/>} />
+      <Tab.Screen name="Industrial Attachment" children={()=>  <TabStack listData ={api_simulation_data.industrialAttachment} name={name}/>} />
+      <Tab.Screen name="Apprenticeship" children={()=> <TabStack listData ={api_simulation_data.apprenticeship} name={name}/>} />
+      </Tab.Navigator>
+    
+      
   );
 };
 
+
+export default Main
 //const styles 

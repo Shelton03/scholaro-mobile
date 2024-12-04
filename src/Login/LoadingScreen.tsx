@@ -13,7 +13,7 @@ export const LoadingScreen = () => {
   function authStateChanges(user: FirebaseAuthTypes.User | null){
     setTimeout(() => {
       if (user){
-        nav.replace("Main")
+        nav.replace("Main",user.email)
       }
       else{
         nav.replace("Login")
