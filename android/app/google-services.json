@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "499602716707",
+    "firebase_url": "https://scholaromobile-default-rtdb.firebaseio.com",
+    "project_id": "scholaromobile",
+    "storage_bucket": "scholaromobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499602716707:android:cdd83c14ed5c75206ed996",
+        "android_client_info": {
+          "package_name": "com.final.package"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX7jXzb0hpEiEpBA0lYcsr3irInM7bZms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499602716707:android:1897093b89504c816ed996",
+        "android_client_info": {
+          "package_name": "com.xfinal.anon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX7jXzb0hpEiEpBA0lYcsr3irInM7bZms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
