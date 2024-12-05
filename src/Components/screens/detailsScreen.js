@@ -1,6 +1,7 @@
 import React from "react";
-import { View, Text, Button, StyleSheet } from "react-native";
+import { View, Text, Button, StyleSheet, ScrollView } from "react-native";
 import auth from "@react-native-firebase/auth"
+import { SafeAreaView } from "react-native-safe-area-context";
 
 
 const DetailsScreen = ({ route, navigation }) => {
@@ -8,7 +9,8 @@ const DetailsScreen = ({ route, navigation }) => {
   const {name} = route.params;
 
   return (
-    <View style={styles.container}>
+    
+    <ScrollView style={styles.container}>
       <Text style={styles.title}>Details</Text>
       <Text style={styles.detail}>Name: {item.name}</Text>
       <Text style={{fontSize:20}}>About:</Text>
@@ -45,7 +47,7 @@ const DetailsScreen = ({ route, navigation }) => {
 
 
       <Button title="Apply" onPress={() => navigation.navigate("Checklist", {item})}/>
-    </View>
+    </ScrollView>
   );
 };
 
