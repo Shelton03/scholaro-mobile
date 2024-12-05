@@ -318,7 +318,7 @@ export const api_simulation_data = {
 "apprenticeship":[
     {
      id:"Den",
-     type: "apprenticeship",
+     type: "job",
      name:"Dendairy",
      opens:"20/02/25",
      closes:"25/04/25",
@@ -332,7 +332,7 @@ export const api_simulation_data = {
     },
     {
     id:"Delt",
-    type: "apprenticeship",
+    type: "job",
     name:"Delta",
     opens: "20/04/25",
     closes: "30/06/25",
@@ -355,7 +355,7 @@ export const api_simulation_data = {
     },
     {
     id:"Dairy",
-    type: "apprenticeship",
+    type: "job",
     name:"Dairyboard",
     opens:"Not yet online",
     closes:"Not yet online",
@@ -369,7 +369,7 @@ export const api_simulation_data = {
     },
     {
         id:"Spo",
-        type: "apprenticeship",
+        type: "job",
         name:"Spotify",
         opens:"24/08/25",
         closes:"31/10/25",
@@ -383,7 +383,7 @@ export const api_simulation_data = {
         },
     {
             id:"Tel",
-            type: "apprenticeship",
+            type: "job",
             name:"Telone",
             opens:"not yet Online",
             closes:"Not yet Online",
@@ -397,7 +397,7 @@ export const api_simulation_data = {
         },
     {
          id:"Air",
-            type: "apprenticeship",
+            type: "job",
             name:"Air Zimbabwe",
             opens:"01/11/2023",
             closes:"25/01/2024",

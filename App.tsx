@@ -6,6 +6,7 @@ import { Login } from "./src/Login/Login";
 import { Register } from "./src/Register/Register";
 import { Main } from "./src/Main/Main";
 import { LoadingScreen } from "./src/Login/LoadingScreen";
+import Applied from "./src/Components/screens/appliedScreen";
 
 
 export default function App() {
@@ -42,6 +43,7 @@ export default function App() {
             headerShown: false,
           }}
         />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );
